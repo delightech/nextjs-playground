@@ -7,15 +7,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@octokit/core": "^4.0.4",
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "@octokit/core": "^3.4.0",
+    "next": "^10.2.0",
+    "next-auth": "^3.13.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "swr": "^0.5.5"
   },
   "devDependencies": {
-    "@types/react": "18.0.1",
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4",
-    "typescript": "^4.7.4"
+    "@types/css-modules": "^1.0.2",
+    "@types/next-auth": "^3.13.0",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "prettier": "^2.2.1",
+    "prettier-plugin-organize-imports": "^1.1.1",
+    "typescript": "^4.2.3"
   }
 }
